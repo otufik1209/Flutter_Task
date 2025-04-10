@@ -59,7 +59,7 @@ class AppDrawer extends StatelessWidget {
         children: <Widget>[
           DrawerHeader(
             decoration: BoxDecoration(color: Colors.blueGrey),
-            child: Text('Menu',
+            child: Text('Drawer Header',
                 style: TextStyle(color: Colors.white, fontSize: 24)),
           ),
           _createDrawerItem(context, Icons.home_rounded, 'Home', HomeScreen()),
