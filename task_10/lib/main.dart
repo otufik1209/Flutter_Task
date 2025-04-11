@@ -37,7 +37,7 @@ class _BottomNavScreenState extends State<BottomNavScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white, // Uniform background for all screens
+      backgroundColor: Colors.white,
       body: AnimatedSwitcher(
         duration: Duration(milliseconds: 300),
         child: _screens[_currentIndex],

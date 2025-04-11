@@ -78,7 +78,7 @@ class MyApp extends StatelessWidget {
                 ),
                 const SizedBox(height: 10),
                 Text(
-                  'Underlined and Strikethrough Regular Text',
+                  'Strikethrough Regular Text',
                   style: TextStyle(
                     fontSize: 20,
                     decoration: TextDecoration.combine([
