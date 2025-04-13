@@ -7,7 +7,6 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    // Corrected: List of Strings, and string interpolation
     List<String> numbers = List.generate(20, (index) => "Item ${index + 1}");
 
     return MaterialApp(

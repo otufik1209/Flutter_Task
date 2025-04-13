@@ -55,7 +55,7 @@ class _LoginScreenState extends State<LoginScreen> {
           child: Form(
             key: _formKey,
             child: Column(
-              mainAxisSize: MainAxisSize.min, // Shrinks to fit content
+              mainAxisSize: MainAxisSize.min, 
               children: [
                 TextFormField(
                   controller: _usernameController,

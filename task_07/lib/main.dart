@@ -46,9 +46,9 @@ class ImageGridScreen extends StatelessWidget {
         padding: const EdgeInsets.all(8.0),
         child: GridView.builder(
           gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-            crossAxisCount: 2, // Number of columns
-            crossAxisSpacing: 8.0, // Horizontal spacing between items
-            mainAxisSpacing: 8.0, // Vertical spacing between items
+            crossAxisCount: 2, 
+            crossAxisSpacing: 8.0,
+            mainAxisSpacing: 8.0, 
           ),
           itemCount: imageUrls.length,
           itemBuilder: (context, index) {
